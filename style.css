@@ -74,3 +74,83 @@ h1{
     color: #fff;
     text-decoration: underline;
 }
+
+#sign-up-form{
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sign-up-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sign-up-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#sign-up-form input[type="text"] {
+    width: 94%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#sign-up-form input[type="text"]:hover {
+    background-color: #7b7575;
+    color: #fff;
+    
+}
+
+#sign-up-form input[type="password"] {
+    width: 94%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#sign-up-form input[type="password"]:hover {
+    background-color: #7b7575;
+    color: #fff;
+
+}
+
+#sign-up-form input[type="email"] {
+    width: 94%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#sign-up-form input[type="email"]:hover {
+    background-color: #7b7575;
+    color: #fff;
+
+}
+
+#sign-up-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #dbce16;
+    border: none;
+    border-radius: 3px;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#sign-up-form button[type="submit"]:hover {
+    background-color: #c0b00f;
+    color: #fff;
+    text-decoration: underline;
+}
+

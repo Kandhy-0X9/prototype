@@ -31,19 +31,31 @@ h1{
 }
 
 #sign-in-form input[type="text"] {
-    width: 100%;
+    width: 94%;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
 
+#sign-in-form input[type="text"]:hover {
+    background-color: #7b7575;
+    color: #fff;
+    
+}
+
 #sign-in-form input[type="password"] {
-    width: 100%;
+    width: 94%;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
+}
+
+#sign-in-form input[type="password"]:hover {
+    background-color: #7b7575;
+    color: #fff;
+
 }
 
 #sign-in-form button[type="submit"] {

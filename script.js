@@ -1,11 +1,14 @@
-const signUpButton = document.getElementById('sign-up-button');
-signUpButton.addEventListener('click', () => {
-    console.log('Sign-up button was clicked.');
-    window.location.href = 'sign-in.html';
-});
+document.addEventListener('DOMContentLoaded', () => {
+    const signUpButton = document.getElementById('sign-up-button');
+    const signInButton = document.getElementById('sign-in-button');
 
-const signInButton = document.getElementById('sign-in-button');
-signInButton.addEventListener('click', () => {
-    console.log('Sign-in button was clicked.');
-    window.location.href = 'mainpage.html';
+    signUpButton?.addEventListener('click', (event) => {
+        event.preventDefault();
+        window.location.href = 'sign-in.html';
+    });
+
+    signInButton?.addEventListener('click', (event) => {
+        event.preventDefault();
+        window.location.href = 'mainpage.html';
+    });
 });

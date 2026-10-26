@@ -23,6 +23,10 @@ INSERT INTO students (name, age, grade)
 VALUES (?, ?, ?);
 """, students_data)
 
+# INSERT INTO students (name, age, grade)
+# VALUES ('Alice', 18, 'A');
+# same thing as adding like this
+
 # 4. Commit the changes and close the connection
 conn.commit()
 conn.close()
